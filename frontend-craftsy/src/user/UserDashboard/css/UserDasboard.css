@@ -1,0 +1,77 @@
+.userDashboardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 0rem;
+  margin: 2rem 6rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  font-family: "inter", sans-serif;
+  gap: 3rem;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .userDashboardContainer {
+    margin: 0;
+    margin-top: 2rem;
+  }
+}
+
+.userPurProducts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dshbrdimg {
+  width: 8rem;
+  border-radius: 44px;
+}
+
+.userDash-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userdashBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+@media (max-width: 600px) {
+  .userdashBtns {
+    flex-direction: column;
+  }
+}
+
+.userDBbtns {
+  padding: 1.2rem 2.5rem;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(24, 24, 188);
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.userDBbtns:hover {
+  background-color: rgb(111, 111, 230);
+
+  color: #000000;
+}
+
+.pphr {
+  border: 1.5px solid #000;
+  width: 100%;
+}
+.pp-head {
+  letter-spacing: 1px;
+}
