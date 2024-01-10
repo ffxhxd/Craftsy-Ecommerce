@@ -1,7 +1,7 @@
 
 # Craftsy Ecommerce
 
-Netflix like web application with the Power of TMDB APIs to search any movie you want
+Craftsy- An End to End e-commerce App only for handmade products. An initiative to help artisans to earn what they desrve.
 - Website Link [https://craftsy.netlify.app/]
 
   
